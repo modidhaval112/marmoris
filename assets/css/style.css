@@ -2240,7 +2240,7 @@ hero-btn {
 }
 .slider-height {
   background-image: url(../img/hero/h1_hero.jpg);
-  min-height: 800px;
+  min-height: 1080px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
