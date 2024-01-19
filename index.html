@@ -50,7 +50,7 @@
                   class="row d-flex justify-content-between align-items-center"
                 >
                   <div class="header-info-left"></div>
-                  <div class="header-info-right">
+                  <div class="header-info-right mr-100">
                     <ul class="header-social">
                       <li>
                         <a href="tel:+919825030148">Phone: +91 98250 30148</a>
@@ -108,9 +108,7 @@
                             <a href="blog.html">Blog</a>
                             <ul class="submenu">
                               <li><a href="blog.html">Blog</a></li>
-                              <li>
-                                <a href="blog_details.html">Blog Details</a>
-                              </li>
+
                               <li><a href="elements.html">Element</a></li>
                             </ul>
                           </li>
@@ -182,7 +180,7 @@
                   <p>Call Us Anytime</p>
                   <span
                     ><a href="tel:+919825030148" style="color: black"
-                      >Phone: +91 98250 30148</a
+                      >+91 98250 30148</a
                     ></span
                   >
                 </div>
@@ -215,7 +213,7 @@
       </div>
       <!-- our info End -->
       <!--? Categories Area Start -->
-      <div class="categories-area section-padding30">
+      <div class="categories-area section-padding">
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
@@ -371,18 +369,22 @@
                         </fieldset>
                       </div>
                     </div>
-                    <div class="col-lg-12">
+                    <div class="col-lg-6">
                       <div class="input-form">
                         <fieldset class="pure-group">
                           <input
                             id="contact"
                             name="contact"
                             placeholder="Contact Number"
+                            type="tel"
+                            pattern="[0-9]{10}"
+                            maxlength="10"
+                            required
                           />
                         </fieldset>
                       </div>
                     </div>
-                    <div class="col-lg-6">
+                    <!-- <div class="col-lg-6">
                       <div class="select-items">
                         <fieldset class="pure-group">
                           <select name="type" id="select1">
@@ -393,7 +395,7 @@
                           </select>
                         </fieldset>
                       </div>
-                    </div>
+                    </div> -->
                     <div class="col-lg-6 col-md-6">
                       <div class="input-form">
                         <fieldset class="pure-group">
@@ -515,7 +517,7 @@
       </section>
       <!-- contact-form end -->
       <!--Team Ara Start -->
-      <div class="team-area section-padding30">
+      <div class="team-area section-padding">
         <div class="container">
           <div class="row justify-content-center">
             <div class="cl-xl-7 col-lg-8 col-md-10">
@@ -784,7 +786,7 @@
       </div>
       <!-- Testimonial End -->
       <!--? Blog Area Start -->
-      <div class="home-blog-area section-padding30">
+      <div class="home-blog-area section-padding">
         <div class="container">
           <!-- Section Tittle -->
           <div class="row">
