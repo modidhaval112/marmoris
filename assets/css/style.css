@@ -2970,7 +2970,7 @@ hero-btn {
 }
 .team-area .single-team:hover .team-caption {
   background: #f15f22;
-  bottom: 0;
+  /* bottom: 0; */
 }
 .team-area .single-team:hover .team-caption h3 a {
   color: #fff;
