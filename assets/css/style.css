@@ -2428,10 +2428,36 @@ hero-btn {
 .slider-area .hero-pera p {
   color: #fff;
   margin-bottom: 42px;
-  font-size: 14px;
+  font-size: 20px;
   font-style: italic;
   text-transform: uppercase;
 }
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .slider-area .hero-pera p {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .slider-area .hero-pera p {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .slider-area .hero-pera p {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+}
+@media (max-width: 575px) {
+  .slider-area .hero-pera p {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+}
+
 .hero-overly {
   position: relative;
   z-index: 1;
